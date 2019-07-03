@@ -1,0 +1,78 @@
+article,
+aside,
+blockquote,
+body,
+button,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+section,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  width: 500px;
+  height: 50px;
+  margin: 200px auto;
+  text-align: center;
+  background: #f1ececde;
+}
+
+.page a {
+  border: 1px solid #cdcdcd;
+  color: #333333;
+  background: white;
+  padding: 0px 10px 0px 10px;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+}
+
+.page a:hover {
+  border: 1px solid red;
+  color: red;
+}
+
+.page .curr {
+  font-weight: bold;
+  background: #fcf9ea;
+  cursor: text;
+}
+
+.page .curr:hover {
+  border: 1px solid #cdcdcd;
+  color: #333333;
+}
